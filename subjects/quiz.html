@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="../images/icon/favicon.png">
+	<title>Quiz on InspirEd</title>
+	<link rel="stylesheet" type="text/css" href="quizStyle.css">
+	<script type="text/javascript" src="../script.js"></script>
+</head>
+<body>
+
+	<!-- NAVIGATION -->
+	<header>
+		<div class="nav" id="nav">
+			<div id="learned-logo">
+				<a href="../index.html"><img src="../images/icon/logo.png" style="width: 120px;"></a>
+			</div>
+			<div class="switch-tab" id="switch-tab" onclick="switchTAB()"><img src="../images/icon/menu.png"></div>
+			<ul id="list-switch">
+				<li><a href="jee.html"><img src="../images/courses/d1.png" class="icon">Maths</a></li>
+				<li><a href="gate.html"><img src="../images/courses/paper.png" class="icon">Chemistry</a></li>
+			</ul>
+			<div class="search" id="search-switch">
+				<input type="text" placeholder="Search" class="srch"><button id="srchbtn"><img src="../images/icon/search.png"></button>
+			</div>
+		</div>
+	</header>
+
+
+	<!-- MAIN Heading of Page -->
+	<div class="title" id="title">
+		<span>Daily Quiz on InspirEd</span>
+		<div class="shortdesc">
+			<br>
+			<p>If you think education is expensive</p>
+		</div>
+		<button onclick="startquiz()">Start Now</button>
+	</div>
+
+
+	<div class="panel" id="panel">
+
+		<div class="left-side" id="left">
+			<ul>
+				<li onclick="quizt(1)">Home</li>
+
+				<li onclick="quizt(3)">Week 14</li>
+
+			</ul>
+		</div>
+
+		<div class="right-side" id="right">
+			<div id="quiz-container">
+
+				<div id="f1"><div class="quiz-frame main-frame"></div></div>
+
+
+				<div id="f4"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeWLrvxFpK_n53uQUXdbuiNRGbnAWs5Iu5-nHi2H9fDPAXcvw/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+
+
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="../script.js"></script>
+</body>
+</html>
